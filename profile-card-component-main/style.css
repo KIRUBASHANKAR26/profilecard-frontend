@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(185, 75%, 39%);
+    font-size: 18px;
+    background-image:url("./images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: 27vh 33vh;
+    background-size: 200%;
+    font-family: 'Kumbh Sans', sans-serif;    
+}
+main{
+    height: 100vh;
+    background-image: url("./images/bg-pattern-top.svg");
+    background-position: -30vh -15vh;;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    background-color:#fff;
+    width: 100%;
+    max-width: 21.875rem;
+    border-radius: 1rem;
+}
+ #profile-bg{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    
+} 
+#profile-pic{
+    border-radius: 50%;
+    position: relative;
+    left:5px;
+    top:5px;
+
+}
+.bg-white{
+    background-color:#fff ;
+    width: 107px;
+    height: 110px;
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    border-radius: 50%;
+}
+.img-container{
+    position: relative;  
+}
+.profile-name{
+    margin-top: 4rem;
+    text-align: center;
+    border-bottom: 1px solid hsl(0, 0%, 59%);
+}
+h3 span{
+    color:hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+.profile-name p{
+    color:hsl(227, 10%, 46%);
+    padding: 1rem 0 1.5rem;
+    font-size:.8rem;
+}
+.profile-name h3{
+    color:hsl(229, 23%, 23%);
+}
+.popularity{
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem .5rem;
+    align-items: center;
+}
+.popularity h3{
+    text-align: center;
+    color:hsl(229, 23%, 23%);
+}
+.popularity p{
+    text-align: center;
+    padding:.3rem 0;
+    font-size: .8rem;
+    color:hsl(227, 10%, 46%);
+}
+
+@media screen and (min-width:56.8rem)
+{
+    body{
+        background-position:140% -200% ;
+        background-attachment:fixed;   
+        
+    }
+    main{
+        background-position: -50% 220%;
+        background-attachment: fixed;
+        background-size: unset;
+    }
+}
+
