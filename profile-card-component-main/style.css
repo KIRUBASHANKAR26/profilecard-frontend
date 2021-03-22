@@ -94,8 +94,8 @@ h3 span{
 {
     body{
         background-position:140% -200% ;
-        background-attachment:fixed;   
-        
+        background-attachment:fixed; 
+        background-size: unset; 
     }
     main{
         background-position: -50% 220%;
